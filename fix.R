@@ -1,4 +1,4 @@
-df <- read.csv('paper_1/spatioTemporalEpisodeHistories.csv')
+df <- read.csv('paper_1 _copy/spatioTemporalEpisodeHistories.csv')
 
 library(ggplot2)
 library(dplyr)
@@ -37,4 +37,4 @@ p1a <- ggplot(data = annual, aes(x=Year, y=total_episodes))+
       breaks = seq(0, 1, 0.2)
     )
   )
-
+p1a
